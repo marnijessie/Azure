@@ -1,0 +1,1 @@
+New-AzureRMResourceGroupDeployment -ResourceGroupName DH-AZR-C01-UOPEN-VM-DV-001 -webTestName URL1 -appName UOpen_WebCheck -URL https://umnasg20.umonitor.com/cuoftexas/welcome.do?auth=66550bf51f0abd7e -templatefile .\template.json
